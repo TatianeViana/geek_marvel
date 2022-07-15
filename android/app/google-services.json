@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129907187250",
+    "project_id": "geek-marvel-7aaba",
+    "storage_bucket": "geek-marvel-7aaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129907187250:android:b2a91de21ebc507efde62b",
+        "android_client_info": {
+          "package_name": "com.example.geek_marvel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129907187250-6ekgoa1ke8pf1veb8tma7o6rh3166696.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-3QOsPYdJf6sY_b2l05rXmZDz3aVsFyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129907187250-6ekgoa1ke8pf1veb8tma7o6rh3166696.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
