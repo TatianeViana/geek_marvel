@@ -111,8 +111,10 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       body: Container(
-        decoration: BoxDecoration(color: Color(0xff14213a)),
+
+        //decoration: BoxDecoration(color: Color(0xff14213a)),
         padding: EdgeInsets.all(16),
         child: Center(
           child: SingleChildScrollView(
@@ -152,7 +154,7 @@ class _LoginPageState extends State<LoginPage> {
                       contentPadding: EdgeInsets.fromLTRB(32, 16, 32, 16),
                       filled: true,
                       fillColor: Colors.white,
-                      hintText: 'Senha',
+                      hintText: 'password',
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32)
                       )
@@ -162,7 +164,7 @@ class _LoginPageState extends State<LoginPage> {
                   padding: EdgeInsets.only(top: 16,bottom:10 ),
                   child: RaisedButton(
                     child: Text(
-                      "Entrar",
+                      "Login",
                       style: TextStyle(color: Colors.white,fontSize: 20),
                     ),
                     color: Colors.deepPurpleAccent,
@@ -177,7 +179,7 @@ class _LoginPageState extends State<LoginPage> {
                 Center(
                   child: GestureDetector(
                     child: Text(
-                      "Não tem conta? Cadastre-se!",
+                      "Don't have account?Create!",
                       style: TextStyle(
                         color: Colors.white
                       )

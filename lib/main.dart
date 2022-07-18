@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           backgroundColor: const Color.fromRGBO(3, 23, 74, 100)
         ),
-        primaryColor: Color(0xff03174c),
+        primaryColor: Colors.grey[900],
        // accentColor: Color(0xff586894)
       ),
       initialRoute: '/splash',

@@ -98,11 +98,12 @@ class _CadastroState extends State<Cadastro> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple[900],
+        backgroundColor: Colors.grey[900],
         title: Text('Cadastro'),
       ),
       body: Container(
-        decoration: BoxDecoration(color: Color(0xff0f1c34)),
+
+        decoration: BoxDecoration(color: Colors.grey[900]),
         padding: EdgeInsets.all(16),
         child: Center(
           child: SingleChildScrollView(
@@ -129,7 +130,7 @@ class _CadastroState extends State<Cadastro> {
                         contentPadding: EdgeInsets.fromLTRB(32, 16, 32, 16),
                         filled: true,
                         fillColor: Colors.white,
-                        hintText: 'Nome',
+                        hintText: 'Name',
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(32))),
                   ),
@@ -162,7 +163,7 @@ class _CadastroState extends State<Cadastro> {
                       contentPadding: EdgeInsets.fromLTRB(32, 16, 32, 16),
                       filled: true,
                       fillColor: Colors.white,
-                      hintText: 'Senha',
+                      hintText: 'password',
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(32))),
                 ),
@@ -170,7 +171,7 @@ class _CadastroState extends State<Cadastro> {
                   padding: EdgeInsets.only(top: 16, bottom: 10),
                   child: RaisedButton(
                       child: Text(
-                        "Cadastrar",
+                        "Create",
                         style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                       color: Colors.deepPurpleAccent,
